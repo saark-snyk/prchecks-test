@@ -1,0 +1,19 @@
+{
+  "name": "prchecks-test",
+  "version": "1.0.0",
+  "description": "prchecks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saark-snyk/prchecks-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saark-snyk/prchecks-test/issues"
+  },
+  "homepage": "https://github.com/saark-snyk/prchecks-test#readme"
+}
