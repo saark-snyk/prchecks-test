@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/saark-snyk/prchecks-test/issues"
   },
-  "homepage": "https://github.com/saark-snyk/prchecks-test#readme"
+  "homepage": "https://github.com/saark-snyk/prchecks-test#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
 }
