@@ -60,19 +60,9 @@ function getVotings() {
             hidden = (result[i].average === undefined ? 'hidden' : '');
             voteTemplate = voteTemplate.replace(/HIDDEN_VIEW_RATING/g, hidden);
 
-            const a = $("#votesList").append(voteTemplate);
             return {
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
-                a,
+                a: $("#votesList")
+                .append(voteTemplate),
             }
         }
     })
