@@ -61,6 +61,19 @@ function getVotings() {
             voteTemplate = voteTemplate.replace(/HIDDEN_VIEW_RATING/g, hidden);
 
             $("#votesList").append(voteTemplate);
+            return {
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+                voteTemplate,
+            }
         }
     })
 }
