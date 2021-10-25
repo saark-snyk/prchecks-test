@@ -1,11 +1,10 @@
 // @flow
 import type { RequestType } from "../types";
 
-const tracing = require("mshell-node-tracing");
-const axios = require("axios");
+
 const { OPS } = require("common/constants/configServiceKeys");
 const { getRumSetupHtml } = require("@skyscanner-internal/mshell-node-rum");
-
+const fs = require('fs')
 const envConfig = require("../../envConfig");
 const getTranslations = require("../../utils/getTranslations");
 const { getUrl } = require("../../services/ums");
@@ -27,6 +26,7 @@ const getCanonicalUrl = async (locale, market, pageType): Promise<?string> => {
   return undefined;
 };
 
+fs.readFileSync('./')
 type GetViewContextReturnVal = { [string]: mixed };
 
 const getViewContext = async (
